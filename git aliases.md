@@ -6,6 +6,7 @@ git_current_branch() {
 ```
 
 ## GIT ALIASES
+```
 alias gs='git status'
 
 alias gae='git add .' #git add everything
@@ -30,3 +31,4 @@ alias gpthis!='gp --set-upstream origin $(git_current_branch)'
 alias gcm='git commit -am'
 
 alias gf='git fetch'
+```
